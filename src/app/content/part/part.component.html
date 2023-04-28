@@ -1,0 +1,9 @@
+<div
+  class="part"
+  [ngStyle]="{ 'border': part.active ? borderStyle : '', 'border-radius': '5px', 'border-width': '9px' }"
+  (click)="onButtonClick()"
+>
+  <h3>{{ part.title }}</h3>
+  <p>{{ part.content }}</p>
+  <button [style.backgroundColor]="part.buttonColor">{{ part.buttonText }}</button>
+</div>

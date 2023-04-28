@@ -1,0 +1,19 @@
+.row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  app-part {
+    flex-basis: calc(50% - 10px);
+    margin-bottom: 20px;
+  }
+  
+  .part {
+    padding: 3rem;
+    border-radius: 3px;
+  }
+  .content-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }

@@ -1,0 +1,14 @@
+.row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  app-part {
+    flex: 0 0 50%;
+    padding: 1rem;
+  }
+  
+  .part {
+    padding: 1rem;
+  }
+  

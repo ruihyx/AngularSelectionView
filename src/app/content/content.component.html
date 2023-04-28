@@ -1,0 +1,10 @@
+<app-header [fontColor]="headerFontColor"></app-header>
+<div class="content-wrapper">
+  <app-part
+    *ngFor="let part of parts; index as i"
+    [part]="part"
+    [active]="part.active"
+    [index]="i"
+    (borderColorChange)="onBorderColorChange($event.color, $event.index)"
+  ></app-part>
+</div>
